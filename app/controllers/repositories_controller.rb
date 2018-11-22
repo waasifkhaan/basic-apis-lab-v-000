@@ -1,7 +1,7 @@
 class RepositoriesController < ApplicationController
 
   def search
-    
+
 
   end
 
