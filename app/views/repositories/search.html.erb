@@ -9,7 +9,7 @@
 <% if @results %>
 
 <%= @results.each do |result|  %>
-<%= result.name %> <br>
+<%= result['name'] %> <br>
 <%= link_to result.name, result.name %><br>
 <%= result.description%>
 <%end%>
